@@ -2,6 +2,12 @@ package com.joserafael.monorepo;
 
 public class MonorepoExampleApp {
 
+    static int orlandito = 69;
+
+    MonorepoExampleApp getNegrito() {
+        return null;
+    }
+
     public static void main(String[] args) {
         int examples[] = {1, 2, 3, 4};
 
@@ -14,5 +20,8 @@ public class MonorepoExampleApp {
         }
 
         System.out.println("Hola");
+
+        MonorepoExampleApp duke = new MonorepoExampleApp();
+        System.out.println(duke.getNegrito().orlandito);
     }
 }
