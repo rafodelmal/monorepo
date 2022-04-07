@@ -9,7 +9,7 @@ public class MonorepoExampleApp {
     }
 
     public static void main(String[] args) {
-        int examples[] = {1, 2, 3, 4};
+        int examples[] = {1, 2, 3, 4, 5};
 
         http://rafodelmal.com
 
