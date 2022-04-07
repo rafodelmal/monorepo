@@ -19,7 +19,7 @@ public class MonorepoExampleApp {
             }
         }
 
-        System.out.println("Hola");
+        System.out.println("Hola Mundo");
 
         MonorepoExampleApp duke = new MonorepoExampleApp();
         System.out.println(duke.getNegrito().orlandito);
